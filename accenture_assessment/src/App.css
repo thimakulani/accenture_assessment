@@ -1,0 +1,375 @@
+
+.header-img {
+  object-fit: scale-down;
+  width: 100%;
+  height: 50%;
+
+}
+
+body{
+  width: auto;
+  height: auto;
+}
+ul a {
+  color: white;
+  text-decoration: none;
+}
+.App-header nav{
+  display: flex;
+  justify-content: space-between;
+  background: #430964;
+  align-content: center;
+  align-items: center;
+  position: sticky;
+  width: 100%;
+  z-index: auto;
+}
+
+.App-header nav ul{
+  display: flex;
+  column-gap: 15px;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.App-header nav ul li{
+  color: white;
+}
+
+.logo{
+  margin-left: 50px;
+}
+
+.header-btn{
+  margin-right: 50px;
+  padding: 10px;
+}
+
+.header-btn button{
+  padding: 10px;
+  border-radius: 25px;
+  border-style: none;
+  cursor: pointer;
+  background: white;
+  color: #430964;
+  font-weight: bold;
+}
+
+.top-panel{
+  background-image: url("assets/confidence.jpeg");
+  width: 100%;
+  height: 600px;
+  position: relative;
+  flex-shrink: 0;
+}
+.bottom-panel #we_offer {
+  font-family: 'Inter';
+  font-size: 50px;
+  margin: auto;
+  font-weight: 10;
+  color: #333333;
+  word-wrap: break-word;
+}
+.bottom-panel #we_do {
+
+  font-family: Inter;
+  font-size: 25px;
+  color: #333333;
+  font-style: normal;
+}
+.services_container{
+  border: 0px solid #000;
+  background: #FFF;
+}
+.top-panel h1, p, button{
+  color: white;
+}
+
+.top-panel button{
+  background: #430964;
+  padding: 7px;
+  border-radius: 25px;
+  border-style: none;
+  cursor: pointer;
+}
+
+.content{
+  margin-left: 30px;
+  margin-bottom: 30px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+}
+
+.bottom-panel{
+  background: white;
+  position: relative;
+}
+
+.bottom-panel{
+  color: black;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.btn_style{
+  background: #430964;
+  border-radius: 5px;
+  padding: 5px;
+  color: white;
+}
+
+
+.img-object{
+  width: 25px;
+  height: 5px;
+  background: deeppink;
+
+}
+
+.bottom-img-text{
+  display: flex;
+  column-gap: 10px;
+  align-items: center;
+
+}
+
+
+/* Card.css */
+.card {
+  /*border: 1px solid #eaeaea;*/
+  /*border-radius: 8px;*/
+  padding: 20px;
+  /*box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);*/
+  background-color: #fff;
+  text-align: left; /* Align content to the center */
+  max-width: 300px; /* Adjust as needed */
+  margin: 0 auto; /* Center the card */
+}
+
+.card-content {
+  display: flex;
+  flex-direction: column; /* Set flex direction to column */
+  align-items: flex-start; /* Center content horizontally */
+}
+
+.card-icon img {
+  width: 50px; /* Adjust as needed */
+  height: 50px; /* Adjust as needed */
+}
+
+.card-title {
+  margin: 10px 0;
+  color: #333;
+  font-size: 24px;
+  font-style: normal;
+}
+
+.card-text {
+  margin: 5px 0;
+  color: #666;
+  font-family: Inter;
+  font-size: 20px;
+  font-style: normal;
+}
+.services_list{
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.case-container{
+  background: white;
+  position: relative;
+}
+
+.case-container{
+  color: black;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.case-container p{
+  color: black;
+}
+.case-container #cases {
+
+  font-family: Inter;
+  font-size: 25px;
+  font-style: normal;
+}
+
+/* ImageCard.css */
+.image-card {
+  overflow: hidden;
+   /* Set a fixed width for the card */
+  /* Optionally, you can set a max-width or adjust it as needed */
+  /* max-width: 100%; */
+  max-width: 500px; /* Adjust as needed */
+  margin: 0 auto; /* Center the card */
+}
+
+.card-image {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover; /* Fill the container while maintaining aspect ratio */
+}
+
+.case-card-content {
+  padding: 15px;
+}
+
+.case-card-title {
+  margin: 5px 0;
+  font-size: 18px;
+  color: #333;
+}
+
+.card-message {
+  margin: 5px 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.img_list{
+  display: flex;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+
+.horizontal-list {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.list-container {
+  display: flex;
+  overflow-x: auto;
+  overflow-y: hidden;
+  white-space: nowrap;
+  padding: 10px 0;
+}
+
+.list-item {
+  display: inline-block;
+  padding: 10px;
+  margin: 0 5px;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+}
+
+
+.brand-list-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.brand-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.brand-item {
+  width: 20%;
+  margin: 5px;
+  text-align: center;
+}
+
+.brand-item img {
+  max-width: 100%;
+  height: auto;
+}
+/*@font-face {
+  font-family: 'Inter';
+  src: url('Inter-4.0/web') format('woff2');
+ !* url('./fonts/your-font.woff') format('woff');*!
+  !* Add more src formats if available *!
+  font-weight: normal;
+  font-style: normal;
+}*/
+
+.footer{
+
+  background: #430964;
+  position: relative;
+  color: white;
+  padding-left: 30px;
+  margin-top: 30px;
+}
+.footer #contact_container{
+  display: flex;
+  justify-content: space-between;
+}
+.footer #contact{
+  color: white;
+  font-size: 15px;
+  justify-content: flex-end;
+  margin-right: 50px;
+  font-family: Inter;
+}
+
+
+/* Footer.css */
+/*.footer {
+  background-color: #f0f0f0;
+  padding: 20px;
+}*/
+
+.links-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.links-container > div {
+  flex: 0 1 calc(25% - 10px);
+  margin-right: 10px;
+}
+.links-container a, p {
+  color: white;
+  text-decoration: none;
+}
+.links-container > div:last-child {
+  margin-right: 0;
+}
+
+.jobs-link {
+  margin-top: 10px;
+}
+
+.jobs-link a {
+  font-weight: bold;
+}
+
+.copyright {
+  margin-top: 20px;
+  text-align: center;
+}
+.search-sort-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px; /* Adjust margin as needed */
+}
+
+.search-sort-container input[type="text"] {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 200px; /* Adjust width as needed */
+  margin-right: 10px; /* Adjust spacing */
+}
+
+.search-sort-container button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff; /* Button background color */
+  color: white; /* Button text color */
+  cursor: pointer;
+}
+
+.search-sort-container button:hover {
+  background-color: #0056b3; /* Hover background color */
+}
