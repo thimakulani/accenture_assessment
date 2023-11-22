@@ -1,8 +1,8 @@
 # accenture_assessment
 # Getting Started
-install nodejs
+install nodejs.
 clone the project.
-clone the api
+clone the api.
 install XAMMP or MySQL Banchmark
 
 copy the db script and copy it into your sql command:
